@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+  colors="true"
+>
+
+  <testsuites>
+    <testsuite name="connection">
+      <file>adpapiUserinfoTest.php</file>
+    </testsuite>
+  </testsuites>
+
+ <filter>
+    <whitelist processUncoveredFilesFromWhitelist="false">
+
+      <file>../adpapiUserinfo.class.php</file>
+
+    <exclude>
+    </exclude>
+    </whitelist>
+  </filter>
+
+
+<logging>
+  <log type="coverage-text" target="php://stdout" showUncoveredFiles="false"/>
+</logging>
+
+
+</phpunit>
+
