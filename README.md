@@ -36,7 +36,6 @@ If you want to test immediately, copy and paste the proper commands that are gen
 $ cd client
 $ php -S 127.0.0.1:8889
 ```
-
 This starts an HTTP server on port 8889 (this port must be unused to run the sample application).
 
 
