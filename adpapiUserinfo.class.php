@@ -78,6 +78,7 @@ class adpapiUserinfoHelper extends adpapiProduct {
 		curl_setopt($curl, CURLOPT_URL,				$endpoint);
 		curl_setopt($curl, CURLOPT_RETURNTRANSFER, 	true);
 		curl_setopt($curl, CURLOPT_HTTPHEADER, 		$headerarray);
+		curl_setopt($curl, CURLOPT_USERAGENT, 		"adp-userinfo-php/1.0.0");
 
 
 		$this->jsondata = curl_exec($curl);
