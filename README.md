@@ -8,7 +8,7 @@ The installation and use of this library makes the following assumptions:
   - Composer is installed and configured, as the library utilizes Composer for installation.
 
 ### Version
-1.0.0
+1.0.1
 
 ### Installation
 
