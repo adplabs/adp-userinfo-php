@@ -24,7 +24,7 @@ class adpapiUserinfoTest extends \PHPUnit_Framework_Testcase
 		$config = array();
 
 		$configuration = array (
-        	'grantType' 			=> 'ClientCredentials',
+        	'grantType' 			=> 'client_credentials',
         	'clientID'				=> $ADP_CC_CLIENTID,
         	'clientSecret'			=> $ADP_CC_CLSECRET,
         	'sslCertPath'			=> $ADP_CERTFILE,
@@ -59,7 +59,7 @@ class adpapiUserinfoTest extends \PHPUnit_Framework_Testcase
 		$config = array();
 
 		$configuration = array (
-        	'grantType' 			=> 'ClientCredentials',
+        	'grantType' 			=> 'client_credentials',
         	'clientID'				=> $ADP_CC_CLIENTID,
         	'clientSecret'			=> $ADP_CC_CLSECRET,
         	'sslCertPath'			=> $ADP_CERTFILE,
